@@ -1,0 +1,24 @@
+# Question Processor App
+
+## Overview
+The **Question Processor App** is a Streamlit application designed to process a list of questions from a text file using OpenAI's language model. The app extracts key information from each question and returns structured data in JSON format.
+
+## Features
+- Upload a text file containing multiple questions.
+- Process each question to extract structured data, including the type of query, the question itself, and a one-line answer.
+- Display results in a user-friendly JSON format.
+
+## Requirements
+To run this application, you will need:
+
+- Python 3.7 or higher
+- Streamlit
+- langchain
+- OpenAI API Client
+- Pydantic
+- python-dotenv
+
+You can install the required packages using pip:
+
+```bash
+pip install streamlit langchain openai pydantic python-dotenv
